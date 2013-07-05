@@ -1,0 +1,49 @@
+@import compass
+@import skeleton/skeleton
+
+@include global-reset
+
+$num-columns: 3
+
+body
+    font: 14px/21px "Blankenburg", Arial, sans-serif
+    color: #000
+    background: #A00
+
+.behaeltnis
+    @include container 
+    margin-top: 50px
+.klang, #kopfgrafik
+    @include third(1)
+.klang
+    margin-bottom: 20px
+    text-align: center
+#ueberschrift
+    @include third(2)
+.clear
+    @include clear
+
+h1
+    padding: 0 10px
+    font-size: 80px
+    line-height: 85px
+    margin-bottom: 14px
+h2
+    font-size: 30px
+    line-height: 30px
+    margin-bottom: 10px
+
+.taster
+    border: 2px solid #000
+    color: #FFF
+    cursor: pointer
+    min-height: 40px
+    padding-top: 10px
+    background: darken( #F00, 20%)
+.taster:hover
+    background: darken( #F00, 10%)
+
+@font-face
+    font-family: 'Blankenburg'
+    src: url('../font/Blankenburg.ttf') format('truetype')
+
