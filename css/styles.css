@@ -1,1 +1,72 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{font:14px/21px "Blankenburg",Arial,sans-serif;color:#000;background:#a00}.behaeltnis{position:relative;margin:0 auto;padding:0;width:960px;margin-top:50px}.behaeltnis:after{content:"\0020";display:block;height:0;clear:both;visibility:hidden}@media only screen and (min-width: 768px) and (max-width: 959px){.behaeltnis{width:768px}}@media only screen and (max-width: 767px){.behaeltnis{width:300px}}@media only screen and (min-width: 480px) and (max-width: 767px){.behaeltnis{width:420px}}.klang,#kopfgrafik{float:left;display:inline;margin-left:10px;margin-right:10px;width:300px}@media only screen and (max-width: 767px){.klang,#kopfgrafik{margin:0}}@media only screen and (min-width: 768px) and (max-width: 959px){.klang,#kopfgrafik{width:236px}}@media only screen and (max-width: 767px){.klang,#kopfgrafik{width:300px}}@media only screen and (min-width: 480px) and (max-width: 767px){.klang,#kopfgrafik{width:420px}}.klang{margin-bottom:20px;text-align:center}#ueberschrift{float:left;display:inline;margin-left:10px;margin-right:10px;width:620px}@media only screen and (max-width: 767px){#ueberschrift{margin:0}}@media only screen and (min-width: 768px) and (max-width: 959px){#ueberschrift{width:492px}}@media only screen and (max-width: 767px){#ueberschrift{width:300px}}@media only screen and (min-width: 480px) and (max-width: 767px){#ueberschrift{width:420px}}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}h1{padding:0 10px;font-size:80px;line-height:85px;margin-bottom:14px}h2{font-size:30px;line-height:30px;margin-bottom:10px}.taster{border:2px solid #000;color:#fff;cursor:pointer;min-height:40px;padding-top:10px;background:#900}.taster:hover{background:#c00}@font-face{font-family:"Blankenburg";src:url("../font/Blankenburg.ttf") format("truetype")}
+/*
+* Skeleton-SASS V1.0
+* Copyright 2012 by Michael Lazer-Walker
+* https://github.com/lazerwalker/Skeleton-Sass
+*
+* Based off of Skeleton v1.1:
+* https://github.com/dhgamache/Skeleton
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+/* #Variable Definitions
+================================================== */
+/* Grid
+================================================== */
+/* #Clearing
+================================================== */
+/* Include clearfix on parent to clear nested columns,
+or wrap each row of columns in a @include row */
+/* You can also use a @include clear to clear columns */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+body { font: 14px/21px "Blankenburg", Arial, sans-serif; color: black; background: #aa0000; }
+
+.behaeltnis { position: relative; margin: 0 auto; padding: 0; width: 960px; margin-top: 50px; }
+.behaeltnis:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+@media only screen and (min-width: 768px) and (max-width: 959px) { .behaeltnis { width: 768px; } }
+@media only screen and (max-width: 767px) { .behaeltnis { width: 300px; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) { .behaeltnis { width: 420px; } }
+
+.klang, #kopfgrafik { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 300px; }
+@media only screen and (max-width: 767px) { .klang, #kopfgrafik { margin: 0; } }
+@media only screen and (min-width: 768px) and (max-width: 959px) { .klang, #kopfgrafik { width: 236px; } }
+@media only screen and (max-width: 767px) { .klang, #kopfgrafik { width: 300px; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) { .klang, #kopfgrafik { width: 420px; } }
+
+.klang { margin-bottom: 20px; text-align: center; }
+
+#ueberschrift { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 620px; }
+@media only screen and (max-width: 767px) { #ueberschrift { margin: 0; } }
+@media only screen and (min-width: 768px) and (max-width: 959px) { #ueberschrift { width: 492px; } }
+@media only screen and (max-width: 767px) { #ueberschrift { width: 300px; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) { #ueberschrift { width: 420px; } }
+
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+h1 { padding: 0 10px; font-size: 80px; line-height: 85px; margin-bottom: 14px; }
+h1 a { color: white; }
+h1 a:hover { color: white; }
+
+h2 { font-size: 30px; line-height: 30px; margin-bottom: 10px; }
+
+.taster { border: 2px solid black; color: white; cursor: pointer; min-height: 40px; padding-top: 10px; background: #990000; }
+
+.taster:hover { background: #cc0000; }
+
+@font-face { font-family: "Blankenburg"; src: url("../font/Blankenburg.ttf") format("truetype"); }
